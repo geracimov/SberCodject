@@ -14,7 +14,7 @@ import java.util.Collection;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class CombinationAnalyzerFacadeTest extends AbstractTest {
-    final CardAnalyzerFacade facade = new CardAnalyzerFacade();
+    final CombinationAnalyzerFacade facade = new CombinationAnalyzerFacade();
 
     @BeforeEach
     void setUp() {
